@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AutoMac' target in the 'AutoMac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

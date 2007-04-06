@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {CLASS = AMCenterFormatter; LANGUAGE = ObjC; SUPERCLASS = NSFormatter; }, 
+        {
+            ACTIONS = {changeView = id; }; 
+            CLASS = AMController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                functionButtons = NSMatrix; 
+                mainView = NSView; 
+                pluginView = NSView; 
+                smallView1 = NSView; 
+                smallView2 = NSView; 
+                smallView3 = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

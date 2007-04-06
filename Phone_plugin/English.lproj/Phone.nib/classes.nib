@@ -1,0 +1,46 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                callAnswer = id; 
+                callVoicemail = id; 
+                keypadBackspace = id; 
+                keypadClear = id; 
+                keypadPressNumber = id; 
+                sendCommand = id; 
+                startConnection = id; 
+            }; 
+            CLASS = AMPhoneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addressBookTable = NSTableView; 
+                batteryChargeLevel = NSLevelIndicator; 
+                cmdInputField = NSTextField; 
+                dialerNumberField = NSTextField; 
+                lineOneAnswerButton = NSButton; 
+                lineOneConnectionStatus = NSTextField; 
+                lineOneHoldButton = NSButton; 
+                lineOneMuteButton = NSButton; 
+                lineOnePartyIdentifier = NSTextField; 
+                lineTwoAnswerButton = NSButton; 
+                lineTwoConnectionStatus = NSTextField; 
+                lineTwoHoldButton = NSButton; 
+                lineTwoMuteButton = NSButton; 
+                lineTwoPartyIdentifier = NSTextField; 
+                mainView = NSView; 
+                networkOperatorField = NSTextField; 
+                phoneChooser = NSPopUpButton; 
+                phoneConnectButton = NSButton; 
+                phoneContactsTable = NSTableView; 
+                signalStrength = AMSignalStrengthView; 
+                subscriberNumberField = NSTextField; 
+                voiceMailButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AMSignalStrengthView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

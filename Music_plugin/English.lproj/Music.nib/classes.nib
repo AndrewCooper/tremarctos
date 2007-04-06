@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                backAction = id; 
+                filterChange = id; 
+                fwdAction = id; 
+                playAction = id; 
+                playlistChange = id; 
+                reloadLibrary = id; 
+                repeatAction = id; 
+                shuffleAction = id; 
+                stopAction = id; 
+                trackTableDblClick = id; 
+                visualizerAction = id; 
+                volChangeAction = id; 
+                volDownAction = id; 
+                volUpAction = id; 
+            }; 
+            CLASS = AMMusicController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                artistAlbumField = NSTextField; 
+                backButton = NSButton; 
+                currentTimeField = NSTextField; 
+                filterControl = NSSegmentedControl; 
+                fwdButton = NSButton; 
+                mainView = NSView; 
+                playButton = NSButton; 
+                playlistTable = NSTableView; 
+                repeatButton = NSButton; 
+                shuffleButton = NSButton; 
+                songTitleField = NSTextField; 
+                stopButton = NSButton; 
+                totalTimeField = NSTextField; 
+                trackProgress = NSProgressIndicator; 
+                trackTable = NSTableView; 
+                volDownButton = NSButton; 
+                volSlider = NSSlider; 
+                volUpButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AMSignalStrengthView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}
